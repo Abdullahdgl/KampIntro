@@ -60,7 +60,7 @@ namespace ClassIntro
 
 
 
-0
+
 			Kurs[] kurslar = new Kurs[] {kurs1,kurs2,kurs3 , kurs4};
 			foreach (var kurs in kurslar)
 			{
