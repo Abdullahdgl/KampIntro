@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace OOP3
 {
@@ -11,7 +12,11 @@ namespace OOP3
 			IKrediManager konutKrediManager = new KonutKrediManager();
 
 			BasvuruManager basvuruManager = new BasvuruManager();
-			basvuruManager.BasvuruYap(konutKrediManager);
+			//basvuruManager.BasvuruYap(konutKrediManager);
+
+			List<IKrediManager> krediler = new List<IKrediManager>() {ihtiyacKrediManager ,tasitKrediManager};
+
+			basvuruManager.KrediOnBilgilendirmesiYap(krediler);
 			
 
 		}

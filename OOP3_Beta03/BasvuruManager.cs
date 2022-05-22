@@ -2,16 +2,15 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace OOP3
+namespace OOP3_Beta03
 {
 	class BasvuruManager
 	{
 		public void BasvuruYap(IKrediManager krediManager)
 		{
-			//Başvuran bilgilerini değerlendirme
-			//
-			krediManager.Hesapla(); 
+			krediManager.Hesapla();
 		}
+
 		public void KrediOnBilgilendirmesiYap(List<IKrediManager> krediler)
 		{
 			foreach (var kredi in krediler)
@@ -19,5 +18,6 @@ namespace OOP3
 				kredi.Hesapla();
 			}
 		}
+
 	}
 }
