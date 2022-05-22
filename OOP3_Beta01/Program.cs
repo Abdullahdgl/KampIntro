@@ -6,7 +6,11 @@ namespace OOP3_Beta01
 	{
 		static void Main(string[] args)
 		{
-			Console.WriteLine("Hello World!");
+			KonutKrediManager konutKrediManager = new KonutKrediManager();
+
+			BasvuruManager basvuruManager = new BasvuruManager();
+			basvuruManager.BasvuruYap(konutKrediManager);
+
 		}
 	}
 }
