@@ -1,4 +1,4 @@
-﻿using InterfaceAbstractDemo2.Abstract;
+﻿	using InterfaceAbstractDemo2.Abstract;
 using InterfaceAbstractDemo2.Concrete;
 using InterfaceAbstractDemo2.Entities;
 using System;
@@ -13,8 +13,11 @@ namespace InterfaceAbstractDemo2
 	{
 		static void Main(string[] args)
 		{
-			BaseCustomerManager customerManager = new StarbuksCustomerManager();
-			customerManager.Save(new Customer {DateOfBirth = new DateTime(1993,15,6), FirstName = "Abdullah", LastName = "DAĞLI", NationalityId = "10136788048" });
+			//BaseCustomerManager customerManager = new StarbuksCustomerManager();
+			//customerManager.Save(new Customer {DateOfBirth = new DateTime(1993,15,6), FirstName = "Abdullah", LastName = "DAĞLI", NationalityId = "10136788048" });
+
+			BaseCustomerManager baseCustomerManager = new StarbuksCustomerManager();
+			baseCustomerManager.save(new Customer { DateOfBirth = new DateTime(1993, 6, 15), FirstName = "Abdullah", LastName = "Dağlı", NationalityId = "12345678912" });
 
 			Console.ReadLine();
 		}

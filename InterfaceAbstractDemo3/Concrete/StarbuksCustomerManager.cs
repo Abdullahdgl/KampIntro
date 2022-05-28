@@ -9,6 +9,11 @@ namespace InterfaceAbstractDemo3.Concrete
 	public class StarbuksCustomerManager:BaseCustomerManager
 	{
 		private ICustomerCheckService _customerCheckService;
+
+		public StarbuksCustomerManager()
+		{
+		}
+
 		public StarbuksCustomerManager(ICustomerCheckService customerCheckService)
 		{
 			_customerCheckService = customerCheckService;
@@ -17,7 +22,7 @@ namespace InterfaceAbstractDemo3.Concrete
 
 		public override void save(Customer customer)
 		{
-			if (true)
+			if (_customerCheckService.CheckIfRealPerson(customer))
 			{
 				base.save(customer);
 			}

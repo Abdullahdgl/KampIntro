@@ -11,5 +11,7 @@ namespace InterfaceAbstractDemo2.Abstract
 		{
 			Console.WriteLine("Save to db :" + customer.FirstName);
 		}
+
+		internal abstract void save(Customer customer);
 	}
 }
