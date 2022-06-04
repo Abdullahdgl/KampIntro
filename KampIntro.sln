@@ -71,7 +71,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfaceAbstractDemo2", "I
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfaceAbstractDemo3", "InterfaceAbstractDemo3\InterfaceAbstractDemo3.csproj", "{D07F92A3-2D8A-482D-8BA5-FD4E90C2DC81}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameProjectDemo", "GameProjectDemo\GameProjectDemo.csproj", "{3B769E6F-4943-432E-8914-8F4CD5906F82}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameProjectDemo", "GameProjectDemo\GameProjectDemo.csproj", "{3B769E6F-4943-432E-8914-8F4CD5906F82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameProject2", "GameProject2\GameProject2.csproj", "{761E0ECA-A0B4-4E03-861D-E8E84F02B1C5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -219,6 +221,10 @@ Global
 		{3B769E6F-4943-432E-8914-8F4CD5906F82}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B769E6F-4943-432E-8914-8F4CD5906F82}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B769E6F-4943-432E-8914-8F4CD5906F82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{761E0ECA-A0B4-4E03-861D-E8E84F02B1C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{761E0ECA-A0B4-4E03-861D-E8E84F02B1C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{761E0ECA-A0B4-4E03-861D-E8E84F02B1C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{761E0ECA-A0B4-4E03-861D-E8E84F02B1C5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
